@@ -21,7 +21,7 @@ Install Docker by following the installation guide: [https://docs.docker.com/eng
 ### Obtaining the image
 You have 2 options to obtain the Docker image
 #### Option 1: Download the image from Docker Hub
-Docker Hub is a cloud based repository of pre-built images. You can download the image directly from here, which is WAY faster than building it locally. Here is the `11364-docker`: [https://hub.docker.com/r/floydhub/dl-docker/](https://hub.docker.com/r/floydhub/dl-docker/).
+Docker Hub is a cloud based repository of pre-built images. You can download the image directly from here, which is WAY faster than building it locally. Here is the `11364-docker`: [https://hub.docker.com/r/rbrigden/11364-docker/](https://hub.docker.com/r/rbrigden/11364-docker/).
 
 ```bash
 $ docker pull rbrigden/11364-docker
