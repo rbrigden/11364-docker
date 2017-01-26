@@ -45,8 +45,17 @@ $ docker build -t 11364 .
 
 ```bash
 $ docker run -dit rbrigden/11364-docker
-$ docker attach
+$ docker ps
 ```
+
+Copy the ID of the process and replace <ID> in the next command.
+
+```bash
+$ docker attach <ID>
+```
+
+
+
 
 ## Working with your local files
 
