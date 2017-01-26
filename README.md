@@ -44,7 +44,7 @@ $ docker build -t 11364 .
 ## Running the container
 
 ```bash
-$ docker run -dit rbrigden/11364-docker
+$ docker run -dit 11364
 $ docker ps
 ```
 
@@ -69,7 +69,7 @@ If you want to create a volume that mounts to /path/to/host/dir/ and /path/to/co
 up the container as follows:
 
 ```bash
-$ docker run -dit -v /path/to/host/dir/:/root/path/to/container/dir rbrigden/11364-docker
+$ docker run -dit -v /path/to/host/dir/:/root/path/to/container/dir 11364
 $ docker attach
 ```
 
