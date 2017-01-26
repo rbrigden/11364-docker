@@ -70,8 +70,14 @@ up the container as follows:
 
 ```bash
 $ docker run -dit -v /path/to/host/dir/:/root/path/to/container/dir 11364
-$ docker attach
 ```
+
+Copy the ID of the process and replace <ID> in the next command.
+
+```bash
+$ docker attach <ID>
+```
+
 
 All changes that you make in the container or the host will be immediately
 visible to the other in the shared volume. Changes are persistent, so deleting the
